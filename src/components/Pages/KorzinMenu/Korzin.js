@@ -60,7 +60,7 @@ function KorzinMenu() {
                   </div>
                   
                   <div className="KorzinMenu__active">
-                      <span className={'KorzinMenu__praice'}>{x.praice}</span>
+                      <span className={'KorzinMenu__praice'}>{x.praice} ₽</span>
                       <button className={'KorzinMenu__btn'} onClick={handleRemoveProduct(index)}>
                         <img src="svg/11.svg" alt="" />
                       </button>
