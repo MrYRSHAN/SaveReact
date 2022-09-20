@@ -32,7 +32,7 @@ function Login() {
 
     if (user?.password === password) {
       dispatch(LoginStatus(true))
-      navigate(-1)
+      navigate('/MainMenu')
     } else {
       setErrorParagraphText('Логин или пароль неверен')
       reset()
