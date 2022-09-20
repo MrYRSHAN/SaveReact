@@ -1,0 +1,223 @@
+li {
+  list-style-type: none;
+  
+}
+
+ul {
+  margin-left: 0;
+
+  padding-left: 0;
+}
+
+.korzin-footer {
+  background-color: #161516;
+  color: #fff;
+  padding-bottom: 35px;
+}
+
+.korzin-order{
+  text-transform: uppercase; 
+  font-size: 24px;
+  padding-bottom: 35px;
+  padding-left: 190px;
+  padding-right: 16px;
+}
+
+.korzin-sum{
+  font-size: 20px;
+  color:#D58C51
+}
+
+.footer-korzinFlex{
+  display: inline-flex;
+  padding-top: 28px;
+  
+}
+
+.footer_korzin-inf{
+  display: table-cell;
+  text-align: left;
+}
+
+.btn-footers{
+  display: table-cell;
+  text-align: right;
+  padding-left: 400px;
+}
+
+.btn-footer{
+  width: 200px;
+  height: 40px;
+  border-radius: 3px;
+  border: none;
+  background-color: #D58C51;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+.title__header{
+  display: flex;
+  align-items: center;
+  
+  justify-content: space-between;
+}
+
+
+.KorzinMenu{
+  max-width: 800px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 38px;
+  
+}
+
+.KorzinMenu:last-child{
+  margin-bottom: 0;
+}
+
+
+
+.KorzinMenu__img{
+  width: 122px;
+  height: 122px;
+  object-fit: cover;
+}
+
+.KorzinMenu__title {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  font-style: 17px;
+  line-height: 21px;
+  color: #fff;
+}
+
+.KorzinMenu__praice {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  font-style: 18px;
+  line-height: 22px;
+  padding-right: 16px;
+
+  color: #d58c51;
+}
+
+*{
+  box-sizing: border-box;
+}
+.KorzinMenu__btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.KorzinMenu__active{
+display: flex;
+align-items: center;
+}
+
+body {
+  background:  #161516;
+}
+
+.Korzina__title{
+  font-weight: 700;
+  line-height: 38px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 31px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  margin-left: 63px;
+}
+
+.KorzinMenu__list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.KorzinMenu__menu{
+  display: flex;
+  align-items: center;
+  gap: 70px;
+
+}
+
+.korzin__Main{
+  height: calc(99vh - 230px);
+  overflow-x: auto;
+}
+
+.Korzina__footer{
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.korzin__Main::-webkit-scrollbar {width: 0;}
+
+.korzin__btn{
+  width: 200px;
+  height: 40px;
+  border-radius: 3px;
+  border: none;
+  background-color: #D58C51;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  margin-top: 35px;
+}
+
+.korzin_order{
+  text-transform: uppercase; 
+  font-size: 21px;
+  
+  
+  padding-right: 16px;
+  font-weight: 450;
+  margin-top: 35px;
+  padding-right: 145px;
+}
+
+.korzin_sum{
+  font-size: 18px;
+  color:#D58C51;
+  font-weight: 400;
+  padding-left: 16px;
+}
+
+
+.img__menu{
+  width: 35px;
+  height: 35px;
+  margin-top: 47px;
+  margin-right: 63px;
+}
+
+
+
+.title{
+  display: flex;
+}
+
+
+
+.back{
+
+  margin-top: 40px;
+}

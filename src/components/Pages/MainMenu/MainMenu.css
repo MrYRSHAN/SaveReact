@@ -1,0 +1,160 @@
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.main{
+  background-color: #161516;
+  color: #fff;
+}
+
+.header{
+  padding-top: 54px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 48px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px 8px;
+  overflow-x: auto;
+  height: calc(100vh - 118px);
+  
+}
+
+.menu::-webkit-scrollbar{width: 0;}
+
+.menu .card {
+  width: 312px;
+}
+
+.header__korzina{
+  align-items: center;
+  display: flex;
+  margin-right: 22px;
+}
+
+
+.sum__korzina{
+  margin-top: 45px;
+}
+
+.img__korzina{
+  padding-top: 5px;
+  padding-right: 22px;
+  padding-left: 22px;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+.header__title{
+  margin-left: 63px;
+  font-weight: 700;
+}
+
+.text__korzina{
+  align-items: flex-end;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+
+
+
+.Big-container {
+  width: 1300px;
+  margin: 0 auto;
+  background: url(../../../../public/images/fons.png);
+  background-color: #161616;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 60px;
+  margin-bottom: 30px;
+
+  
+}
+
+.Big-Card_desc{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  max-height: 500px;
+}
+
+.Big-Card_img{
+  height: 100%;
+  margin-left: 0;
+}
+
+.Big-Card_text{
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  max-width: 530px;
+}
+
+.Card-header_title{
+  color: #d58c51;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 37px;
+  margin-bottom: 21px;
+  max-width: 415px;
+}
+
+.Card-header_desc{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  margin-bottom: 34px;
+}
+
+.Card-header_sum{
+
+}
+
+.Card-sum{
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.Card-ves{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-right: 68px;
+}
+
+
+
+.Card-header_btn{
+  background-color: #d58c51;
+  border: 1px solid transparent;
+  color: #131313;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #d58c51;
+  border: 1px solid #d58c51;
+  font-size: 14px;
+  font-weight: 400;
+  height: 42px;
+  line-height: 17px;
+  width: 200px;
+}
+
+

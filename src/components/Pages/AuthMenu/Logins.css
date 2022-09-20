@@ -1,0 +1,139 @@
+.login__menu , .registration__menu{
+  align-items: center;
+  background: #c4c4c4 url(../../../../public/images/fonsAuth.png) 50%/cover no-repeat;
+  display: inline-flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.registration__form, .login__form{
+  align-items: center;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 35px 20px;
+  position: relative;
+  width: 460px;
+  z-index: 1;
+}
+
+.login__link, .registration__link{
+  color: #d58c51;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 13px;
+  position: absolute;
+  right: 20px;
+  text-align: right;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  top: 9px;
+}
+
+.login__header, .registration__header{ 
+  color: #161516;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.login__input , .registration__input{
+  border: 1px solid #d58c51;
+  border-radius: 61px;
+  color: #161516;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 10px 18px;
+  width: 100%;
+}
+
+.login__error, .registration__error{
+  color: #ff0b0b;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  height: 10px;
+  line-height: 10px;
+  margin: 1px auto 4px 18px;
+}
+
+
+.login__checkbox, .registration__checkbox {
+  align-items: center;
+  display: flex;
+  margin-right: auto;
+}
+
+.registration__checkbox-input, .login__checkbox-input{
+  display: none;
+}
+
+.registration__checkbox-label, .login__checkbox-label {
+  align-items: center;
+  border: 1px solid #d58c51;
+  border-radius: 50%;
+  display: inline-flex;
+  height: 18px;
+  justify-content: center;
+  width: 18px;
+}
+
+.registration__checkbox-text , .login__checkbox-text{
+  color: #301411;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 13px;
+  margin-left: 9px;
+}
+
+.login__valid-error, .registration__valid-error{
+  color: #ff0b0b;
+  font-size: 8px;
+  font-weight: 300;
+  height: 10px;
+  line-height: 10px;
+  margin-bottom: 12px;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.button {
+  background-color: initial;
+  border: 1px solid #d58c51;
+  color: #d58c51;
+  font-size: 14px;
+  font-weight: 400;
+  height: 42px;
+  line-height: 17px;
+  width: 200px;
+}
+
+.btn__auth{
+  background-color: #d58c51;
+  border: 1px solid transparent;
+  color: #131313;
+}
+
+
+.login__checkbox-input:checked + label:before {
+  background-color: #d58c51;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 13px;
+  width: 13px;
+}
+
+.registration__checkbox-input:checked + label:before {
+  background-color: #d58c51;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 13px;
+  width: 13px;
+}
