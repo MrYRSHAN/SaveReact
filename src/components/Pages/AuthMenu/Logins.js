@@ -76,7 +76,7 @@ function Login() {
           </div>
           <p className='login__valid-error' ref={validateErrorParagraph}>{errorParagraphText}</p>
           <button className='button btn__auth' type="submit">Войти</button>
-          <Link to="/MainMenu"> Menu </Link>
+        
         </form>
 
       </div>
